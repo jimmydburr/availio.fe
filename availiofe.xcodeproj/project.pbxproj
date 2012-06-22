@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72085D5F15910564003B64C8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72085D5E15910564003B64C8 /* Cocoa.framework */; };
+		72085D6915910564003B64C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72085D6715910564003B64C8 /* InfoPlist.strings */; };
+		72085D6B15910564003B64C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72085D6A15910564003B64C8 /* main.m */; };
+		72085D6F15910564003B64C8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 72085D6D15910564003B64C8 /* Credits.rtf */; };
+		72085D7215910564003B64C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72085D7115910564003B64C8 /* AppDelegate.m */; };
+		72085D7515910565003B64C8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72085D7315910565003B64C8 /* MainMenu.xib */; };
+		72085DC715923094003B64C8 /* AvailioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72085DC615923094003B64C8 /* AvailioController.m */; };
+		72F8C7461594E1540072BB9F /* 512px-Colombian_-_Frog_Effigy_Pendant_-_Walters_TL20092078_-_Top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F8C7451594E1540072BB9F /* 512px-Colombian_-_Frog_Effigy_Pendant_-_Walters_TL20092078_-_Top.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72085D5A15910564003B64C8 /* availiofe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = availiofe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72085D5E15910564003B64C8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		72085D6115910564003B64C8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		72085D6215910564003B64C8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		72085D6315910564003B64C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72085D6615910564003B64C8 /* availiofe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "availiofe-Info.plist"; sourceTree = "<group>"; };
+		72085D6815910564003B64C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72085D6A15910564003B64C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72085D6C15910564003B64C8 /* availiofe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "availiofe-Prefix.pch"; sourceTree = "<group>"; };
+		72085D6E15910564003B64C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		72085D7015910564003B64C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72085D7115910564003B64C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72085D7415910565003B64C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		72085DC515923094003B64C8 /* AvailioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailioController.h; sourceTree = "<group>"; };
+		72085DC615923094003B64C8 /* AvailioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvailioController.m; sourceTree = "<group>"; };
+		726E92C71594E34700248658 /* availiofe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = availiofe.entitlements; sourceTree = "<group>"; };
+		72F8C7451594E1540072BB9F /* 512px-Colombian_-_Frog_Effigy_Pendant_-_Walters_TL20092078_-_Top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "512px-Colombian_-_Frog_Effigy_Pendant_-_Walters_TL20092078_-_Top.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72085D5715910564003B64C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72085D5F15910564003B64C8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72085D4F15910563003B64C8 = {
+			isa = PBXGroup;
+			children = (
+				72F8C7451594E1540072BB9F /* 512px-Colombian_-_Frog_Effigy_Pendant_-_Walters_TL20092078_-_Top.jpg */,
+				72085D6415910564003B64C8 /* availiofe */,
+				72085D5D15910564003B64C8 /* Frameworks */,
+				72085D5B15910564003B64C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72085D5B15910564003B64C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72085D5A15910564003B64C8 /* availiofe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72085D5D15910564003B64C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72085D5E15910564003B64C8 /* Cocoa.framework */,
+				72085D6015910564003B64C8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72085D6015910564003B64C8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72085D6115910564003B64C8 /* AppKit.framework */,
+				72085D6215910564003B64C8 /* CoreData.framework */,
+				72085D6315910564003B64C8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		72085D6415910564003B64C8 /* availiofe */ = {
+			isa = PBXGroup;
+			children = (
+				726E92C71594E34700248658 /* availiofe.entitlements */,
+				72085D7015910564003B64C8 /* AppDelegate.h */,
+				72085D7115910564003B64C8 /* AppDelegate.m */,
+				72085DC515923094003B64C8 /* AvailioController.h */,
+				72085DC615923094003B64C8 /* AvailioController.m */,
+				72085D7315910565003B64C8 /* MainMenu.xib */,
+				72085D6515910564003B64C8 /* Supporting Files */,
+			);
+			path = availiofe;
+			sourceTree = "<group>";
+		};
+		72085D6515910564003B64C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72085D6615910564003B64C8 /* availiofe-Info.plist */,
+				72085D6715910564003B64C8 /* InfoPlist.strings */,
+				72085D6A15910564003B64C8 /* main.m */,
+				72085D6C15910564003B64C8 /* availiofe-Prefix.pch */,
+				72085D6D15910564003B64C8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72085D5915910564003B64C8 /* availiofe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72085D7815910565003B64C8 /* Build configuration list for PBXNativeTarget "availiofe" */;
+			buildPhases = (
+				72085D5615910564003B64C8 /* Sources */,
+				72085D5715910564003B64C8 /* Frameworks */,
+				72085D5815910564003B64C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = availiofe;
+			productName = availiofe;
+			productReference = 72085D5A15910564003B64C8 /* availiofe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72085D5115910564003B64C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 72085D5415910564003B64C8 /* Build configuration list for PBXProject "availiofe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72085D4F15910563003B64C8;
+			productRefGroup = 72085D5B15910564003B64C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72085D5915910564003B64C8 /* availiofe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72085D5815910564003B64C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72085D6915910564003B64C8 /* InfoPlist.strings in Resources */,
+				72085D6F15910564003B64C8 /* Credits.rtf in Resources */,
+				72085D7515910565003B64C8 /* MainMenu.xib in Resources */,
+				72F8C7461594E1540072BB9F /* 512px-Colombian_-_Frog_Effigy_Pendant_-_Walters_TL20092078_-_Top.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72085D5615910564003B64C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72085D6B15910564003B64C8 /* main.m in Sources */,
+				72085D7215910564003B64C8 /* AppDelegate.m in Sources */,
+				72085DC715923094003B64C8 /* AvailioController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72085D6715910564003B64C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72085D6815910564003B64C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72085D6D15910564003B64C8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72085D6E15910564003B64C8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		72085D7315910565003B64C8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72085D7415910565003B64C8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72085D7615910565003B64C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		72085D7715910565003B64C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		72085D7915910565003B64C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "availiofe/availiofe-Prefix.pch";
+				INFOPLIST_FILE = "availiofe/availiofe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72085D7A15910565003B64C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "availiofe/availiofe-Prefix.pch";
+				INFOPLIST_FILE = "availiofe/availiofe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72085D5415910564003B64C8 /* Build configuration list for PBXProject "availiofe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72085D7615910565003B64C8 /* Debug */,
+				72085D7715910565003B64C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72085D7815910565003B64C8 /* Build configuration list for PBXNativeTarget "availiofe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72085D7915910565003B64C8 /* Debug */,
+				72085D7A15910565003B64C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72085D5115910564003B64C8 /* Project object */;
+}
